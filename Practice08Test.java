@@ -82,6 +82,7 @@ public class Practice08Test {
 			return true;
 		} catch (Exception e) {
 			System.out.println("[   ] = Failed insert multiple items test");
+			System.out.println(e);
 			return false;
 		}
 	}
